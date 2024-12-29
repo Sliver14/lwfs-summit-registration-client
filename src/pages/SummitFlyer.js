@@ -54,7 +54,7 @@ const CreateFlyer = () => {
 
   return (
     <div className='summitflyer' >
-      <h1 style={{justifySelf: "center",}}>Create Your Summit Avatar</h1>
+      <h1 style={{justifySelf: "center"}}>Create Your Summit Avatar</h1>
 
       {/* Image Upload Section */}
       <div className='upload-container'>
