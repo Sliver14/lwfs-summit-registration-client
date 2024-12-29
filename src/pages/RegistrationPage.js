@@ -61,7 +61,7 @@ function RegistrationPage() {
       </div>
 
       <div className="register">
-      <h2 className="register_title">REGISTER NOW</h2>
+      <h2 className="register_title">SUMMIT REGISTRATION</h2>
       <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
         <Form>
           <div>
