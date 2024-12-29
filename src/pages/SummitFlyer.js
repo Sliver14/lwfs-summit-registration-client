@@ -54,12 +54,13 @@ const CreateFlyer = () => {
 
   return (
     <div className='summitflyer' >
-      <h1 style={{justifySelf: "center",}}>Create Your Summit Avatar</h1>
+      <h1 className='summith1'>Create Your LWFS
+       Summit Avatar</h1>
 
       {/* Image Upload Section */}
       <div className='upload-container'>
         <label htmlFor="file-upload" className='file-upload-label'>
-        Choose a file
+        Upload a photo
           <input type="file" accept="image/*" className='file-upload-input' id="file-upload" onChange={handleFileChange} />
         </label>
         {fileName && <span id="file-name">{fileName}</span>}
@@ -81,7 +82,7 @@ const CreateFlyer = () => {
       )}
 
       {imageSrc && (
-        <button className='save-crop' style={{justifySelf: "center", }} onClick={handleSaveCrop}>Save Crop</button>
+        <button className='save-crop' style={{justifySelf: "center",  }} onClick={handleSaveCrop}>Save Crop</button>
       )}
 
       {/* Flyer Preview Section */}
