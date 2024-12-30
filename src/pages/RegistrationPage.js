@@ -130,7 +130,7 @@ function RegistrationPage() {
       </Formik>
       </div>
       
-      <button onClick={() => navigate("/create-flyer")}> Create Avatar</button>
+      <button style={{marginBottom: "1.5em"}}onClick={() => navigate("/create-flyer")}> Create Avatar</button>
     </div>
   );
 }
