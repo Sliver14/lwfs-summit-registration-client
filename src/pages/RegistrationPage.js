@@ -40,7 +40,7 @@ function RegistrationPage() {
     setSuccess("");
 
     try {
-      const response = await axios.post("http://localhost:3001/registration", e);
+      const response = await axios.post("my-summit-production.up.railway.app", e);
       setSuccess(response.data.message);
       navigate("/create-flyer");
     } catch(err) {
