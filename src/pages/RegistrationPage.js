@@ -40,7 +40,7 @@ function RegistrationPage() {
     setSuccess("");
 
     try {
-      const response = await axios.post("https://my-summit-production.up.railway.app/", e);
+      const response = await axios.post("https://my-summit-production.up.railway.app/registration", e);
       setSuccess(response.data.message);
       navigate("/create-flyer");
     } catch(err) {
@@ -130,7 +130,7 @@ function RegistrationPage() {
       </Formik>
       </div>
       
-      {/* <button onClick={() => navigate("/create-flyer")}> Create Avatar</button> */}
+      <button onClick={() => navigate("/create-flyer")}> Create Avatar</button>
     </div>
   );
 }
